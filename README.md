@@ -16,7 +16,7 @@
 		mvnw clean package
 		# Change dir
 		cd docker 
-		# build a docker tag
+		# build a docker tag see docker/Dockerfile
 		docker buildx build -t sampledocker:1.0 .
 		# run spring boot
 		docker run -d --name my_image -p 8080:8080 sampledocker:1.0
