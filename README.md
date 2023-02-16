@@ -23,6 +23,8 @@
 		curl localhost:8080 
 		o/p: This is home page
 		docker stop my_image
+		# tag locally
+		docker tag sampledocker:1.0 narayanab16/sampledocker:1.0
 		# upload image to public docker repo
 		docker login
-		docker tag narayanab16/sampledocker:1.0
+		docker push narayanab16/sampledocker:1.0
