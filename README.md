@@ -1,8 +1,7 @@
 # sampledocker - Build a docker image using spring boot microservice
 
 		Installed Softwares
-		-------------------
-    # 
+		------------------- 
 		Java 18
 		Maven 3.x
 		Docker Community edition 23.0.1
