@@ -28,3 +28,5 @@
 		# upload image to public docker repo
 		docker login
 		docker push narayanab16/sampledocker:1.0
+		# my docker
+		https://hub.docker.com/r/narayanab16/sampledocker
