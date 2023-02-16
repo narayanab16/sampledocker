@@ -5,6 +5,7 @@
 		Java 18
 		Maven 3.x
 		Docker Community edition 23.0.1
+		Git
 
 
 		#checkout code
