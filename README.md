@@ -19,7 +19,7 @@
 		docker buildx build -t sampledocker:1.0 .
 		# run spring boot
 		docker run -d --name my_image -p 8080:8080 sampledocker:1.0
-		# test web url 
+		# test web url or curl :  http://localhost:8080 
 		curl localhost:8080 
 		o/p: This is home page
 		docker stop my_image
